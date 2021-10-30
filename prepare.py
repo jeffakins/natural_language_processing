@@ -112,8 +112,8 @@ def prep_a_writting(string):
     '''This function applies all of the above functions to a string(s)'''
     string = basic_clean(string)
     string = tokenize(string)
-    string = stem(string)
-    string = lemmatize(string)
+    #string = stem(string)
+    #string = lemmatize(string)
     string = remove_stopwords(string)
     return string
 
